@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>CL3 VillenaNicolas</span>
+      <span class="example-spacer"></span>
+      <button mat-raised-button (click)="onNavigateToAlmacenPage()" color="warn">Almacen</button>
+      <button mat-raised-button (click)="onNavigateToObreroPage()"  color="warn">Obrero</button>
+      <button mat-raised-button (click)="onNavigateToApiRestPage()" color="warn">apiRest</button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <router-outlet></router-outlet>
